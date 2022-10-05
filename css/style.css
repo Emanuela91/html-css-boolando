@@ -37,14 +37,73 @@ header{
 
 /* main */
 main{
-    /* background-color: green; */
     min-height: 500px;
+    /* DEBUG */
+    /* background-color: green; */
 }
 
 .container{
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
+    padding: 10px 160px;
+    
+    
 }
+
+.img{
+    position: relative;
+    
+}
+
+img{
+    height: 490px;
+}
+
+.lable{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    bottom: 100px;
+    left: 0px;
+    padding: 5px;
+}
+
+.lable2{
+    position: absolute;
+    background-color: rgb(13, 166, 59);
+    color: white;
+    font-size: 15px;
+    bottom: 100px;
+    left: 50px;
+    padding: 5px;
+
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    font-size: 30px;
+    top: 30px;
+    right: 0px;
+    padding: 0px 5px;
+}
+
+h2{
+    font-size: 17px;
+}
+
+mark{
+    color: red ;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
 
 
 
