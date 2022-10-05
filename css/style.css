@@ -60,7 +60,22 @@ main{
 }
 
 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 490px;
+}
+
+.hover{
+    position: absolute;
+    height: 490px;
+    display: none;
+    bottom: 57px;
+}
+
+
+.img:hover .hover{
+    display: block;
 }
 
 .lable{
@@ -71,6 +86,7 @@ img{
     bottom: 100px;
     left: 0px;
     padding: 5px;
+    /* display: inline-block; */
 }
 
 .lable2{
@@ -79,6 +95,7 @@ img{
     color: white;
     font-size: 15px;
     bottom: 100px;
+    /* display: inline-flex; */
     left: 50px;
     padding: 5px;
 
@@ -110,7 +127,7 @@ mark{
 
 
 
-
+/* inizio footer  */
 footer{
     display: flex;
     justify-content: space-around;
