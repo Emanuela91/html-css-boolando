@@ -4,19 +4,49 @@
     box-sizing: border-box;
 }
 
-body{
-    
-}
-
+/* header */
 header{
-    background-color: red;
-    min-height: 200px;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 81, 0);
+    padding: 10px;
 }
 
+.genere{
+    display: flex;
+}
+
+.link{
+    list-style: none;
+    color: white;
+    padding: 0px 5px;
+}
+
+#logo{
+    height: 50px;
+    padding-top: 5px;
+}
+
+.account i{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* main */
 main{
-    background-color: green;
+    /* background-color: green; */
     min-height: 500px;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between
+}
+
+
 
 footer{
     background-color: yellow;
