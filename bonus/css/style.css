@@ -121,9 +121,9 @@ img{
     padding: 0px 5px;
 }
 
-/* .heart:hover{
+.heart:hover{
     color: red;
-} */
+}
 
 h2{
     font-size: 17px;
@@ -134,6 +134,7 @@ mark{
     text-decoration: none;
     background-color: transparent;
 }
+
 
 /* inizio footer  */
 footer{
